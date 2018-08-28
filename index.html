@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="icon/logo1.png">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <title>moneyTack</title>
+</head>
+<body>
+	<div class="wrap">
+		<!-- Navigation -->
+	<nav>
+		<div class="clearfix">
+			<div class="container">
+				<ul class="left-nav">
+					<li>
+						<a href="#home"><img id="logo" src="icon/logo1.png" alt="">  moneyTrackk</a>
+					</li>
+				</ul>
+				<ul class="right-nav">
+					<li>
+						<a href="#account">Check account</a>
+					</li>
+					<li>
+						<a href="#analytic">Analytic Section</a>
+					</li>
+					<li>
+						<a href="#contacts">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Check Account Section -->
+	<section id="account">
+		<div class="box">
+			<div class="text clearfix">
+				<h1>Welcome to moneyTrackk!</h1>
+				
+				<p>Your balance is <span id="condition">%Positive%</span></p>
+				<p>Total money balance is <span id="balance">%%</span> in <span class="budget__title--month">%Month%</span>:</p>
+				<p class="exp-inc">Total Income: <span id="income">%%</span></p>
+				<p class="exp-inc">Total Expense: <span id="expense">%%%</span><span class="budget__expenses--percentage">&nbsp;</span></p>
+			</div>
+		</div>
+	</section>
+	 <div class="bottom">
+            <div class="add">
+                <div class="item_container">
+                    <select class="type">
+                        <option value="income" selected>+</option>
+                        <option value="expense">-</option>
+                    </select>
+                    <input type="text" class="description" placeholder="Your description">
+                    <input type="number" class="value" placeholder="Value">
+                    <button class="btn"><i class="ion-ios-checkmark-outline"></i></button>
+                </div>
+            </div>
+            
+             
+            <div class="container container-item activities clearfix">
+                <div class="income">
+                    <h2 class="income__title">Income</h2>
+                    
+                    <div class="income__list">
+                       
+                        <!--
+                        <div class="item clearfix" id="income-0">
+                            <div class="item__description">Salary</div>
+                            <div class="right clearfix">
+                                <div class="item__value">+ 2,100.00</div>
+                                <div class="item__delete">
+                                    <button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="item clearfix" id="income-1">
+                            <div class="item__description">Sold car</div>
+                            <div class="right clearfix">
+                                <div class="item__value">+ 1,500.00</div>
+                                <div class="item__delete">
+                                    <button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        -->
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <div class="expenses">
+                    <h2 class="expense__title">Expenses</h2>
+                    
+                    <div class="expenses__list">
+                       
+                        <!--
+                        <div class="item clearfix" id="expense-0">
+                            <div class="item__description">Apartment rent</div>
+                            <div class="right clearfix">
+                                <div class="item__value">- 900.00</div>
+                                <div class="item__percentage">21%</div>
+                                <div class="item__delete">
+                                    <button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item clearfix" id="expense-1">
+                            <div class="item__description">Grocery shopping</div>
+                            <div class="right clearfix">
+                                <div class="item__value">- 435.28</div>
+                                <div class="item__percentage">10%</div>
+                                <div class="item__delete">
+                                    <button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        -->
+                        
+                    </div>
+                </div>
+            
+            
+        </div>
+	</div>
+	
+	<!-- Analytic Section -->
+
+	<!-- Footer -->
+	<div class="footer">
+  		<p>Osia Production 2018</p>
+	</div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -286,15 +286,14 @@ h2 {
     display: inline-block;
     vertical-align: middle;
     line-height: 1;
-    display: none;
 }
 
 .item__delete--btn:focus { outline: none; }
 .item__delete--btn:active { transform: translateY(2px); }
 
 .item:hover .item__delete--btn { display: block; }
-.item:hover .item__value { transform: translateX(-20px); }
-.item:hover .item__percentage { transform: translateX(-20px); }
+.item:hover .item__value { transform: translateX(-50px); }
+.item:hover .item__percentage { transform: translateX(-50px); }
 
 
 .unpaid {
